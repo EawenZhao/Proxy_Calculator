@@ -8,4 +8,9 @@ public class AddUnit implements CalcUnit{
     public double calc(double x, double y) {
         return x + y;
     }
+
+    @Override
+    public String toString() {
+        return "+";
+    }
 }

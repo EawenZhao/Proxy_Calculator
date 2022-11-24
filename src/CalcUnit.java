@@ -4,5 +4,4 @@ public interface CalcUnit {
 
     double calc(double x, double y);
 
-
 }

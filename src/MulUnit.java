@@ -8,4 +8,9 @@ public class MulUnit implements CalcUnit{
     public double calc(double x, double y) {
         return x * y;
     }
+
+    @Override
+    public String toString() {
+        return "*";
+    }
 }
